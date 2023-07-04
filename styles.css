@@ -11,6 +11,7 @@
 body {
   background-color: rgb(255, 255, 255);
   line-height: 1.3 !important;
+  font-size: 14px;
   max-width: 1580px;
   min-width: 1580px;
 }
@@ -209,8 +210,20 @@ li .progress-bar span {
   width: 70%;
 }
 
-.nj-progress span {
+.ja-progress span {
+  width: 60%;
+}
+
+.spb-progress span {
   width: 50%;
+}
+
+.sp-progress span {
+  width: 40%;
+}
+
+.nj-progress span {
+  width: 40%;
 }
 
 .ts-progress span {
@@ -324,6 +337,18 @@ li .progress-bar span {
 
 .re-progress span::after {
   content: "70%";
+}
+
+.ja-progress span::after {
+  content: "60%";
+}
+
+.spb-progress span::after {
+  content: "50%";
+}
+
+.sp-progress span::after {
+  content: "40%";
 }
 
 .nj-progress span::after {
