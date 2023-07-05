@@ -4,15 +4,15 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "Nunito", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 
 body {
   background-color: rgb(255, 255, 255);
   line-height: 1.3 !important;
-  max-width: 1580px;
-  min-width: 1580px;
+  max-width: 1180px;
+  min-width: 1580px; 
 }
 
 .box {
@@ -60,7 +60,7 @@ body {
 }
 
 .name {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -69,7 +69,7 @@ body {
 }
 
 .career {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #8d8dff;
   text-align: center;
   text-transform: uppercase;
@@ -80,7 +80,7 @@ body {
 .main-title {
   padding-left: 1rem;
   padding-top: 2.4rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #f7f7f7;
@@ -111,7 +111,7 @@ body {
 
 .contact-info ul li i {
   padding-right: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #d1d8db;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .skills-section li .info span {
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1rem;
   opacity: 0;
   animation: showText 0.5s 1s linear forwards;
 }
@@ -442,7 +442,7 @@ li .progress-bar span {
 .para-about {
   line-height: 1.3;
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.1rem;
   color: #404040;
   padding-right: 10px;
@@ -483,7 +483,7 @@ li .progress-bar span {
 .para-experience {
   line-height: 1.2rem;
   justify-content: justify;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #404040;
 }
 
@@ -494,13 +494,14 @@ li .progress-bar span {
   padding-bottom: 2rem;
 }
 
-.experience .formacion {
+.experience  {
   padding-top: 1rem;
 }
 
 .timeline {
   display: grid;
   grid-template-columns: 350px 1fr;
+  margin: 9px 0;
 }
 
 .tl-title-1,
@@ -508,7 +509,7 @@ li .progress-bar span {
   padding-top: 1rem;
   color: rgb(0, 0, 0);
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
